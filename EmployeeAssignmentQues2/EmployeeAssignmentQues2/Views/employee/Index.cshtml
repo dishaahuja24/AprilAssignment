@@ -1,0 +1,20 @@
+﻿@model IEnumerable<EmployeeAssignmentQues2.Models.employee>
+
+@{ 
+    ViewData["Title"] = ViewBag.title;
+
+
+}
+
+<h1> INDEX </h1>
+@ViewBag.Details
+<ul>
+    @foreach (var e in ViewBag.emp)
+    {
+
+        <li>@e.id</li>
+        <li>@e.name</li>
+
+    }
+
+</ul>
