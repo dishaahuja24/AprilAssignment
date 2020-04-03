@@ -1,0 +1,3 @@
+﻿// Command to create asp.net mvc through command prompt
+
+dotnet new mvc -n Ques1
